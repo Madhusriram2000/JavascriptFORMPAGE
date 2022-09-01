@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>FORM IN JS & CSS</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+        integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" 
+        crossorigin="anonymous" referrerpolicy="no-referrer"/>
+        <link rel="stylesheet" href="frmjscss.css">
+        <script type="text/javascript" src="formjscss.js"></script>
+    </head>
+    <body>
+        <div class="container">
+            <div class="box">
+            <form class="form">
+                <h1>LOGIN FORM</h1>
+                <i class="fa-solid fa-user"></i><input type="text" placeholder="NAME" id="name" onkeyup="letters(this,'spa')"><br><span id="spa">Enter values</span><br>
+                <i class="fa-solid fa-lock"></i><input type="password" placeholder="password" id="pass" onkeyup="password(this,'spb')"><br><span id="spb">Enter Password</span><br>
+                <i class="fa-solid fa-phone"></i><input type="text" placeholder="phone no" id="phno" onkeyup="mobile(this,'spn')"><br><span id="spn">Enter no</span><br>
+                <i class="fa-solid fa-envelope"></i><input type="email" placeholder="abcd@gmail.com" id="mail" onkeyup="mailid(this,'spm')"><br><span id="spm">Invalid mail entered</span><br>
+                <button onclick="sub()">SUBMIT<i class="fa-solid fa-cloud"></i></button>
+                <button onclick="res()">RESET<i class="fa-solid fa-arrows-rotate"></i></button>
+            </form>
+        </div>
+        </div>
+    </body>
+</html>

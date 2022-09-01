@@ -1,0 +1,37 @@
+.container{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(180, 255, 227);
+}
+.box{
+    text-align: center;
+    width:300px;
+    height: 300px;
+    padding: 20px;
+    border:2px solid salmon;
+    border-radius: 35px;
+    background-color: rgb(225, 255, 177);
+}
+.form #res{
+    margin-left: 15px;
+}
+h1{color:black;}
+h1:hover{
+    color:blue;
+}
+#name{
+    outline: none;
+}
+#spa{display: none;
+   font-size: small;
+}
+#spm{ font-size: small;
+    display: none;
+}
+#spb{display: none;
+    font-size: small;}
+#spn{display: none;
+    font-size: small;}
